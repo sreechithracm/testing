@@ -1,6 +1,9 @@
+
 #!/bin/bash
-set -e
-echo "Hello world"
-exit 0
+for (( counter=10; counter>0; counter-- ))
+do
+echo -n "$counter "
+done
+printf "\n"
 
 
